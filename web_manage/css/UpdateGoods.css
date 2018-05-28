@@ -1,0 +1,78 @@
+body {
+}
+ #tb2
+    {
+        width:700px;
+    }
+    
+    #content ul
+    {
+        margin:0px;
+        padding:0px;
+    }
+    
+    #content
+    {
+        width:700px;
+        background-color:#F8F8F8;
+        border:1px solid #ECECEC;
+    }
+    
+    #content label,input
+    {
+        font-size:12px;
+    }
+    
+    #content label
+    {
+        padding-right:50px;
+    }
+    
+    #content .c1,#content .c2
+    {
+        border:0px solid #000;
+        position:relative;
+        top:3px;
+        margin-right:5px;
+    }
+    
+    #content ul
+    {
+        list-style:none;
+    }
+    
+    #content li
+    {
+        float:left;
+        width:180px;
+        height:30px;
+    }
+    
+    #dt
+    {
+        margin-top:30px;
+    }
+    
+    #tbd1
+    {
+        background-color:#FFFFFF;
+    }
+    
+    #th1 tr
+    {
+        background-color:#EDEDED;
+    }
+    
+    #tb1 td
+    {
+        width:100px;
+        text-align:center;
+        font-size:14px;
+    }
+    
+    #content a
+    {
+        text-decoration:none;
+        font-size:13px;
+    }
+    
