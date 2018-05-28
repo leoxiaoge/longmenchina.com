@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>龙门网</title>
+		<meta name="keywords" content="" />
+		<meta name="description" />
+
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=yes">
+
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/project.css" />
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/owl.carousel.css" />
+		<link rel="stylesheet" href="css/css3.css" />
+		<script type="text/javascript" src="js/jQuery.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.js"></script>
+		<script type="text/javascript" src="js/area.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="head cle w">
+			<i class="mob_nav">
+				<em class="em1"></em>
+				<em class="em2"></em>
+				<em class="em3"></em>
+			</i>
+
+			<a href="index.html" class="fl logo">
+				<img src="img/logo.jpg" />
+			</a>
+			<div class="fl nav">
+				<ul class="cle">
+					<li class="fl">
+						<a href="index.html">首页</a>
+						|
+					</li>
+					<li class="fl">
+						<a href="政务猎头.html">
+							政务猎头
+						</a>
+						|
+					</li>
+
+					<li class="fl">
+						<a href="职业转型.html">
+							职业转型
+						</a>
+						|
+					</li>
+
+					<li class="fl">
+						<a href="人才引进.html">
+							人才引进
+						</a>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="fr log cle">
+				<div class="form cle">
+					<input type="text" class="fl text" placeholder="请输入你要搜索的内容！" />
+					<input type="button" class="fr sub" value="提交" />
+				</div>
+				<a href="#" class="fr">个人中心</a>
+				<a href="#" class="but fr">
+					胡先生
+				</a>
+				<span class="sevr fr">
+					<img src="img/img1.jpg"  />
+				</span>
+			</div>
+
+			<script>
+				$(function() {
+					$(' .head .sevr').click(function() {
+						$(this).parent('.log').toggleClass('log_on');
+					})
+				})
+			</script>
+		</div>
+
+		<script>
+			$(function() {
+				var i = 0;
+				$('.mob_nav').click(function() {
+					if(i == 0) {
+						$(this).addClass('mob_nav_on');
+
+						$('.head .nav').show();
+						i++;
+					} else if(i == 1) {
+						$(this).removeClass('mob_nav_on');
+
+						$('.head .nav').hide();
+						i--;
+					}
+
+				})
+			})
+		</script>
+
+		<div class="child_banners" style="background: url(img/img89.jpg) center no-repeat;">
+
+		</div>
+
+		<div class="user_warp">
+			<div class="w cle html5_w90">
+				<div class="weizhiss">
+					<a href="#">首页</a>>
+					<a href="#">个人信息</a>
+				</div>
+
+				<div class="zhifu_info">
+					<div class="box">
+						<p class="t1">
+							<img src="img/img94.jpg" /> 尊敬的用户，您已成功恭喜你成为龙门网会员
+						</p>
+						<p class="t2">
+							了解更多请添加微信公众号或联系客服
+						</p>
+						<p class="t2">
+							电话:13121321032013
+						</p>
+						<img src="img/img95.jpg" class="ewm" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="cle w wws html5_w90">
+				<div class="ewm">
+					<img src="img/img11.jpg" />
+					<p>龙门网微信 </p>
+				</div>
+				<div class="list cle">
+					<img src="img/img10.jpg" class="fl" />
+					<a href="#">找好处</a>
+
+					<a href="#">龙门网</a>
+
+					<a href="#">鲤鱼汇</a>
+				</div>
+
+				<div class="list1">
+					<span>
+						关于龙门网
+					</span>
+					<a href="#">龙门团队</a> |
+					<a href="#">加入我们</a> |
+					<a href="#">联系我们</a> |
+					<a href="#">新闻报道</a>
+				</div>
+
+				<div class="info">
+					Copyright © 深圳前海邱思延务猎头有限公司 版权所有 <br> 邮箱：zhaohaochu@fuyoupeng.com
+				</div>
+
+			</div>
+
+		</div>
+		<div class="copy">
+			皖ICP备160222245
+		</div>
+
+	</body>
+
+</html>
